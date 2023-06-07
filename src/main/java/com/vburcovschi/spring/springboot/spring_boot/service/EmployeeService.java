@@ -9,11 +9,9 @@ import java.util.List;
 public interface EmployeeService {
     public List<Employee> getAllEmployee();
 
-/*    Employee getEmployee(int id);
-
     public void saveEmployee(Employee employee);
 
     public Employee getEmployee(int id);
 
-    public void removeEmployee(int id);*/
+    public void removeEmployee(int id);
 }

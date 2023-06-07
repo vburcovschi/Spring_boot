@@ -19,7 +19,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
         return session.createQuery("from Employee", Employee.class).getResultList();
     }
 
-/*    @Override
+    @Override
     public void saveEmployee(Employee employee) {
         Session session = entityManager.unwrap(Session.class);
         session.saveOrUpdate(employee);
@@ -35,7 +35,7 @@ public class EmployeeDAOImpl implements EmployeeDAO{
     public void removeEmployee(int id) {
         Session session = entityManager.unwrap(Session.class);
         session.remove(getEmployee(id));
-    }*/
+    }
 
 
 }

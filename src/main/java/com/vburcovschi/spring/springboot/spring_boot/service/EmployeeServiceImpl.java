@@ -20,7 +20,7 @@ public class EmployeeServiceImpl implements EmployeeService{
         return employeeDAO.getAllEmployee();
     }
 
-/*    @Override
+    @Override
     @Transactional
     public void saveEmployee(Employee employee) {
         employeeDAO.saveEmployee(employee);
@@ -36,5 +36,5 @@ public class EmployeeServiceImpl implements EmployeeService{
     @Transactional
     public void removeEmployee(int id) {
         employeeDAO.removeEmployee(id);
-    }*/
+    }
 }
